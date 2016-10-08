@@ -164,7 +164,7 @@
                             [songInfo setObject:[imgData base64EncodedStringWithOptions:0] forKey:@"image"];
                         } else {
                             UIImage *defImg = [UIImage imageNamed:@"default_music.png"];
-                            [songInfo setObject:[UIImagePNGRepresentation(defImg) base64EncodedString]forKey:@"image"];
+                            [songInfo setObject:[UIImagePNGRepresentation(defImg) base64EncodedStringWithOptions:0]forKey:@"image"];
                             //[songInfo setObject:@"No Image" forKey:@"image"];
                         }
 
