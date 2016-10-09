@@ -24,6 +24,9 @@
                     <param name="ios-package" value="iOSAudioPicker" />
                 </feature>
             </config-file>
+            <config-file target="*-Info.plist" parent="NSAppleMusicUsageDescription">
+                <string>hotshare uses music</string>
+            </config-file>
 
             <header-file src="src/ios/iOSAudioPicker.h" />
             <source-file src="src/ios/iOSAudioPicker.m" />
